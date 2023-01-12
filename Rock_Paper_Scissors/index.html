@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock, Paper and Scissors</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="name">
+                    Rock <br>
+                    Paper <br>
+                    Scissors
+                </div>
+                <div class="score">
+                    <span>Score</span>
+                    <br>
+                    <span id="score_number">0</span>
+                </div>
+            </header>
+            <div class="body">
+               <div class="main-body">
+                    <button type="button" title="rock" class="rock">
+                        <img src="./images/icon-rock.svg" alt="">
+                    </button>
+                    <button type="button" title="paper" class="paper">
+                        <img src="./images/icon-paper.svg" alt="">
+                    </button>
+                    <button type="button" title="scissors" class="scissors">
+                        <img src="./images/icon-scissors.svg" alt="">
+                    </button>
+                    <img src="./images/bg-triangle.svg" alt="">
+               </div>
+               <div  class="check-winner">
+                    <div class="checker">
+                        <div class="member player">
+                            <h5>YOU PICKED</h5>
+                            <div class="placeholder">
+                                
+                            </div>
+                        </div>
+                        <div class="member computer">
+                            <h5>THE HOUSE PICKED</h5>
+                            <div class="placeholder">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <h3></h3>
+                        <button class="play-again">
+                            Play Again
+                        </button>
+                    </div>
+               </div>
+            </div>
+
+        </main>
+    </body>
+</html>
